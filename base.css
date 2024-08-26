@@ -17,11 +17,14 @@ main {
     padding-bottom: 1rem;
 }
 
+button,select{
+    font-size: 1.1rem;
+    padding: 0.5rem 0.2rem;
+}
 button {
-    padding: 1rem 0.5rem;
     background-color:rgb(18, 210, 98);
     transition: all 0.1s ease-in-out;
-    font-size: 1.5rem;
+    border: none;
 }
 button:hover{
     background-color:rgb(133, 236, 159);
@@ -35,9 +38,6 @@ button:hover{
 select{
     background-color: black;
     color: white;
-    padding: 1rem 0.5rem;
-    font-size: 1.5rem;
-    
 }
 
 #grid-div{
