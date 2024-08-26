@@ -58,7 +58,7 @@ select{
     
     position: relative;
 
-    transition: 0.5s;
+    transition: 0.1s;
 }
 /*    EMPTY    */
 .block-div[data-state="0"] {
