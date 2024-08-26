@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Star</title>
+    <link rel='icon' type='image/x-icon' href='/favicon.ico'>
+    <link rel='icon' sizes='512x512' href='icons/android-chrome-512x512.png'>
+    <link rel='icon' sizes='192x192' href='icons/android-chrome-192x192.png'>
+    <link rel='icon' sizes='32x32' href='icons/favicon-32x32.png'>
+    <link rel='icon' sizes='16x16' href='icons/favicon-16x16.png'>
+    <link rel='apple-touch-icon' href='icons/apple-touch-icon.png'> 
+    <script src="/astar.js" defer></script>
+    <link rel="stylesheet" href="/base.css">
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <div id="control-div">
+            <button id="fill-btn">Fill Random</button>
+            <button id="clear-btn">Clear Grid</button>
+            <button id="line-btn">Toggle Lines</button>
+            <br>
+            <br>
+            <select  id="size-select" value="8">
+                <option value="8">8x8</option>
+                <option value="16">16x16</option>
+                <option value="32">32x32</option>
+                <option value="64">64x64</option>
+                <option value="128">128x128</option>
+            </select>
+            <button id="stop-btn">Stop</button>
+            <button id="play-btn">Play</button>
+            <button id="next-btn">Next</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+        <div id="grid-div">
+        </div>
+        <div id="stats-div">
+                <p id="msg-box">Game Started</p>
+        </div>
+    </main>
+    <footer>
+        developed by harshit
+    </footer>
+</body>
+</html>
